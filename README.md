@@ -154,6 +154,4 @@ Pull requests for bug fixes and enhancements are welcome.
 __Thank you to:__ @vickylai!
 
 # License
-Copyright (C) 2019 Tommaso Turchi
-
 Licensed under [AGPL-3.0](https://github.com/tommasoturchi/hugo-theme-tom/blob/master/LICENSE)
