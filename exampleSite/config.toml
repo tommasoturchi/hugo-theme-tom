@@ -2,8 +2,8 @@ baseurl                 = "/"               # Your domain name. Must end with "/
 languageCode            = "en-us"
 defaultContentLanguage  = "en"
 isMultilingual          = false
-title                   = "Call me Sam"
-theme                   = "sam"
+title                   = "Call me Tom"
+theme                   = "tom"
 pygmentsStyle           = "monokai"                     # https://help.farbox.com/pygments.html
 pygmentsCodefences      = true
 # googleAnalytics         = ""             # Tracking code, eg. "UA-111111111-1"
@@ -19,7 +19,7 @@ pygmentsCodefences      = true
                                                          # Note: This will only become active if clickablePhotos is also true.
     smallImagesSubfolder = "small/"                      # The subfolder for the small versions of the images under the gallery (with trailing slash)
                                                          # For each image the small version has to have the same filename as the big version.
-    footerText          = "Call me Sam, a theme for Hugo."
+    footerText          = "Call me Tom, a theme for Hugo."
 
 # Metadata
     description         = "A new Hugo site."            # Max 160 characters show in search results
@@ -36,4 +36,4 @@ pygmentsCodefences      = true
 
 [[params.mainMenu]]
     link = "/about"
-    text = "who is sam?"
+    text = "who is tom?"
