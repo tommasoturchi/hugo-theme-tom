@@ -1,12 +1,12 @@
-name = "Call me Sam."
+name = "Call me Tom."
 license = "Creative Commons Attribution 3.0 Unported"
-licenselink = "https://github.com/vickylai/hugo-theme-sam/blob/master/LICENSE.txt"
+licenselink = "https://github.com/tommasoturchi/hugo-theme-tom/blob/master/LICENSE.txt"
 description = "Simple And Minimalist theme for Hugo."
-homepage = "https://github.com/vickylai/hugo-theme-sam"
-tags = ["clean", "simple", "blog", "portfolio", "flexbox", "css grid", "minimalist", "responsive", "syntax highlighting", "gallery", "starter"]
+homepage = "https://github.com/tommasoturchi/hugo-theme-tom"
+tags = ["clean", "simple", "blog", "portfolio", "flexbox", "css grid", "minimalist", "responsive", "syntax highlighting", "gallery", "starter", "interactive particles"]
 features = ["responsive", "gallery"]
 min_version = "0.30"
 
 [author]
-  name = "Vicky Lai"
-  homepage = "https://vickylai.com"
+  name = "Tommaso Turchi"
+  homepage = "https://turchi.im"
