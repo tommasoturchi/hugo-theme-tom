@@ -124,7 +124,7 @@ content/
 
 The thumbnails need to have the same filenames as the larger images they represent.
 
-That's it! Sam's gallery layout template will automagically build the page from your images.
+That's it! Tom's gallery layout template will automagically build the page from your images.
 
 
 # Editing the theme
