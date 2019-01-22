@@ -34,7 +34,7 @@ $ git submodule add https://github.com/vickylai/hugo-theme-tom.git themes/tom
 
 ## 2. Configure your site
 
-From the exampleSite, copy `config.toml` to the root folder of your Hugo site and change the fields as you like. There are helpful hints in the file.
+From the [sam repository](https://github.com/vickylai/hugo-theme-sam), copy `config.toml` to the root folder of your Hugo site and change the fields as you like. There are helpful hints in the file.
 
 ## 3. Create pages
 
@@ -83,7 +83,7 @@ $ hugo new posts/your-post-title.md
 
 ## Image gallery
 
-To create an image gallery, place all the files you want included in a folder within `/content/gallery/`. The exampleSite has this configured as `content/gallery/images/` but you can change the name of the "images" folder in `config.toml` if you wish.
+To create an image gallery, place all the files you want included in a folder within `/content/gallery/`.
 
 ```
 content/
@@ -107,20 +107,7 @@ url: "/portrait-gallery"
 
 In order to create more than one gallery, create multiple folders in `content/` with this file structure and `type: "gallery"` defined in the `_index.md` front matter.
 
-In `config.toml`, you can set `smallPreviewImages` to `true` in order to use small sized thumbnails. Include those thumbnail files in your gallery image folder. In exampleSite, this looks like:
-
-```
-content/
- └── gallery/
-    └── images/
-        │   └── small/
-        |       ├── file_1.jpg
-        |       ├── file_2.jpg
-        |       └── file_3.jpg
-        ├── file_1.jpg
-        ├── file_2.jpg
-        └── file_3.jpg
-```
+In `config.toml`, you can set `smallPreviewImages` to `true` in order to use small sized thumbnails. Include those thumbnail files in your gallery image folder.
 
 The thumbnails need to have the same filenames as the larger images they represent.
 
